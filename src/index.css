@@ -2,6 +2,39 @@
 
 @theme {
 	--font-sans: "Neue Regrade", system-ui, sans-serif;
+	--font-mono: "Courier New", Courier, monospace;
+}
+
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+body {
+	overflow: visible;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+}
+
+p,
+span,
+div,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+}
+
+.text-meta {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }
 
 @font-face {

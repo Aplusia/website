@@ -14,7 +14,7 @@ function TransmissionMolecule() {
 		backside: false,
 		samples: { value: 1, min: 1, max: 16, step: 1 },
 		resolution: { value: 512, min: 64, max: 2048, step: 64 },
-		transmission: { value: 0.26, min: 0, max: 1, step: 0.01 },
+		transmission: { value: 0.7, min: 0, max: 1, step: 0.01 },
 		roughness: { value: 0.86, min: 0, max: 1, step: 0.01 },
 		thickness: { value: 0.3, min: 0, max: 3, step: 0.01 },
 		ior: { value: 1.8, min: 1, max: 3, step: 0.01 },
@@ -88,9 +88,9 @@ function RotatableMolecule() {
 
 	const getResponsiveScale = () => {
 		if (isMobile) {
-			return [0.12, 0.12, 0.12];
+			return [0.04, 0.04, 0.04];
 		}
-		return [0.2, 0.2, 0.2];
+		return [0.06, 0.06, 0.06];
 	};
 
 	useFrame((state, _delta) => {
