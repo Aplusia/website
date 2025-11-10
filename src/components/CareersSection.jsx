@@ -28,7 +28,7 @@ const OPEN_ROLES = [
 
 export default function CareersSection() {
 	return (
-		<section id="careers" className="mt-32 mb-20 bg-gray-50 rounded-3xl p-12">
+		<section id="careers" className="mt-32 mb-32 bg-gray-50 rounded-3xl p-12">
 			<div className="flex flex-col md:flex-row gap-8">
 				<h2 className="text-5xl text-[#1f2937] md:w-1/3 flex-shrink-0">
 					OPEN ROLES

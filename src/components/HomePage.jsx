@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
 import TeamSection from "./TeamSection";
+import WorkTogetherSection from "./WorkTogetherSection";
 
 export default function HomePage() {
 	const [isMobile, setIsMobile] = useState(false);
@@ -75,7 +76,7 @@ export default function HomePage() {
 					imagePosition="left"
 				/>
 
-				<section className="mt-20 mb-20 flex flex-col md:flex-row gap-10 items-center">
+				<section className="mt-32 flex flex-col md:flex-row gap-10 items-center">
 					<div className="flex-1">
 						<h3 className="text-4xl text-[#1f2937] mb-4">
 							Section Title Three
@@ -92,6 +93,8 @@ export default function HomePage() {
 				</section>
 
 				<TeamSection />
+
+				<WorkTogetherSection />
 
 				<CareersSection />
 			</main>

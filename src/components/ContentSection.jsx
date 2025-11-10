@@ -5,7 +5,7 @@ export default function ContentSection({
 	children,
 }) {
 	return (
-		<section className="mt-20 flex flex-col md:flex-row gap-10 items-center">
+		<section className="mt-32 flex flex-col md:flex-row gap-10 items-center">
 			{imagePosition === "left" && (
 				<div className="flex-1 bg-gray-200 rounded-2xl h-[400px] flex items-center justify-center overflow-hidden">
 					{children || (
