@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 373.49 150.43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        font-family: NeueRegrade-Semibold, 'Neue Regrade';
+        font-size: 72px;
+        font-variation-settings: 'wght' 600, 'ital' 0;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="122.46" y="-1201.92" width="894.09" height="911.53" rx="29.72" ry="29.72"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <image width="4071" height="6106" transform="translate(-4.98 -1406.39) scale(.27 .26)" xlink:href="../stock_images/pexels-mucahttbeyhan-16313978.png"/>
+  </g>
+  <text class="cls-3" transform="translate(93.41 93.76)"><tspan x="0" y="0">Aplu</tspan><tspan class="cls-4" x="148.03" y="0">s</tspan><tspan x="182.01" y="0">i</tspan><tspan class="cls-5" x="199.65" y="0">a</tspan></text>
+  <rect class="cls-2" x="45.12" y="43.36" width="7.44" height="52.99" rx="1.94" ry="1.94"/>
+  <rect class="cls-2" x="32.43" y="67.89" width="7.44" height="28.47" rx="2.29" ry="2.29"/>
+  <rect class="cls-2" x="69.59" y="43.36" width="7.44" height="52.99" rx="1.82" ry="1.82"/>
+  <rect class="cls-2" x="57.24" y="69.86" width="7.44" height="45.56" rx="2" ry="2"/>
+</svg>
