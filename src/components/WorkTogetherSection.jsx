@@ -1,4 +1,4 @@
-import workingTogetherBg from "../assets/pexels-diva-30335060.png";
+import workingTogetherBg from "../assets/pexels-diva-30335060_optimized.jpg";
 
 export default function WorkTogetherSection() {
 	return (

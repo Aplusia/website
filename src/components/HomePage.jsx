@@ -51,19 +51,16 @@ export default function HomePage() {
 				<HeroSection />
 
 				<ContentSection
-					title="Interactive 3D Visualization"
+					title="Reliable Data Platforms"
 					description={
-						<>
-							<p className="text-lg text-[#6b7280] leading-relaxed mb-6">
-								Experience cutting-edge molecular visualization powered by
-								Three.js and React Three Fiber. Our platform enables researchers
-								to interact with complex protein structures in real-time.
-							</p>
-							<p className="text-lg text-[#6b7280] leading-relaxed">
-								Featuring realistic materials, smooth animations, and intuitive
-								controls designed for scientific exploration and analysis.
-							</p>
-						</>
+						<p className="text-lg text-[#6b7280] leading-relaxed">
+							Research and investment decisions require consistent, traceable
+							data. We build platforms that provide the same reliable results
+							across different users and use cases. Our systems maintain data
+							lineage, ensure reproducibility, and give teams confidence in
+							their analyses whether they're running daily experiments or
+							presenting to stakeholders.
+						</p>
 					}
 					imagePosition="right"
 				>
@@ -71,20 +68,27 @@ export default function HomePage() {
 				</ContentSection>
 
 				<ContentSection
-					title="Section Title Two"
-					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+					title="Fast Proof of Concept"
+					description={
+						<p className="text-lg text-[#6b7280] leading-relaxed">
+							We deliver validated computational solutions through rapid
+							iteration cycles. Our approach combines scientific rigor with
+							software engineering best practices to accelerate discovery
+							timelines and reduce development risk.
+						</p>
+					}
 					imagePosition="left"
 				/>
 
 				<section className="mt-32 flex flex-col md:flex-row gap-10 items-center">
 					<div className="flex-1">
 						<h3 className="text-4xl text-[#1f2937] mb-4">
-							Section Title Three
+							When Science becomes Software
 						</h3>
 						<p className="text-lg text-[#6b7280] leading-relaxed">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+							From proof-of-concept algorithms to production bioinformatics
+							pipelines. We develop the computational methods your science
+							needs, then engineer them to handle real-world data volumes.
 						</p>
 					</div>
 					<div className="flex-1 bg-gray-200 rounded-2xl h-[400px] flex items-center justify-center">

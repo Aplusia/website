@@ -1,4 +1,4 @@
-import heroBg from "../assets/pexels-mucahttbeyhan-16313978.png";
+import heroBg from "../assets/pexels-mucahttbeyhan-16313978_optimized.jpg";
 
 export default function HeroSection() {
 	return (
