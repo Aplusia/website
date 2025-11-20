@@ -1,19 +1,22 @@
 import HomePage from "./components/HomePage";
 import MaintenancePage from "./components/MaintenancePage";
 
-console.log("[BUILD TIME] VITE_DEV =", import.meta.env.VITE_DEV);
+console.log("[BUILD TIME] VITE_PRODUCTION =", import.meta.env.VITE_PRODUCTION);
 console.log("[BUILD TIME] All env vars:", import.meta.env);
 
 export default function App() {
-	const isDev = import.meta.env.VITE_DEV === "TRUE";
+	const isProduction = import.meta.env.VITE_PRODUCTION === "TRUE";
 
-	console.log("[RUNTIME] VITE_DEV env variable:", import.meta.env.VITE_DEV);
-	console.log("[RUNTIME] Dev mode enabled:", isDev);
-	console.log("[RUNTIME] typeof:", typeof import.meta.env.VITE_DEV);
+	console.log(
+		"[RUNTIME] VITE_PRODUCTION env variable:",
+		import.meta.env.VITE_PRODUCTION,
+	);
+	console.log("[RUNTIME] Production mode enabled:", isProduction);
+	console.log("[RUNTIME] typeof:", typeof import.meta.env.VITE_PRODUCTION);
 
-	if (isDev) {
-		return <HomePage />;
+	if (isProduction) {
+		return <MaintenancePage />;
 	}
 
-	return <MaintenancePage />;
+	return <HomePage />;
 }
