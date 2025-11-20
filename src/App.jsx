@@ -1,4 +1,6 @@
+import { Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage";
+import ImpressumPage from "./components/ImpressumPage";
 import MaintenancePage from "./components/MaintenancePage";
 
 console.log("[BUILD TIME] VITE_PRODUCTION =", import.meta.env.VITE_PRODUCTION);
@@ -18,5 +20,10 @@ export default function App() {
 		return <MaintenancePage />;
 	}
 
-	return <HomePage />;
+	return (
+		<Routes>
+			<Route path="/" element={<HomePage />} />
+			<Route path="/impressum" element={<ImpressumPage />} />
+		</Routes>
+	);
 }

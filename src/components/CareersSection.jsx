@@ -1,39 +1,27 @@
 const OPEN_ROLES = [
 	{
 		title: "Software Engineer",
-		location: "REMOTE",
-		date: "11.10.25",
+		location: "MUNICH, GERMANY",
+		date: "01.12.25",
 	},
 	{
-		title: "Senior Data Scientist",
-		location: "CAMBRIDGE, MA USA",
-		date: "11.10.25",
-	},
-	{
-		title: "Consultant, Life Sciences",
-		location: "REMOTE",
-		date: "11.10.25",
-	},
-	{
-		title: "Senior Machine Learning Engineer",
-		location: "CAMBRIDGE, MA",
-		date: "11.15.25",
-	},
-	{
-		title: "Product Manager",
-		location: "CAMBRIDGE, MA USA",
-		date: "11.20.25",
+		title: "Consultant, Life Science",
+		location: "MUNICH, GERMANY",
+		date: "01.12.25",
 	},
 ];
 
 export default function CareersSection() {
 	return (
-		<section id="careers" className="mt-32 mb-32 bg-gray-50 rounded-3xl p-12">
+		<section
+			id="careers"
+			className="mt-32 mb-32 bg-gray-50 rounded-3xl p-12 min-h-[400px]"
+		>
 			<div className="flex flex-col md:flex-row gap-8">
 				<h2 className="text-5xl text-[#1f2937] md:w-1/3 flex-shrink-0">
-					OPEN ROLES
+					Open Roles
 				</h2>
-				<div className="space-y-0 md:w-2/3">
+				<div className="space-y-0 md:w-2/3 flex-1">
 					{OPEN_ROLES.map((job) => (
 						<div
 							key={job.title}

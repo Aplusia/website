@@ -7,17 +7,17 @@ const CONFIG = {
 	largeImages: {
 		pattern: "src/assets/pexels-*.png",
 		maxWidth: 1920,
-		quality: 85,
+		quality: 90,
 	},
 	teamPhotos: {
 		pattern: "src/assets/*_watermark.{png,jpg}",
-		maxWidth: 800,
-		quality: 85,
+		maxWidth: 1200,
+		quality: 90,
 	},
 	otherImages: {
 		pattern: "src/assets/*.{png,jpg,jpeg}",
-		maxWidth: 1200,
-		quality: 85,
+		maxWidth: 1600,
+		quality: 90,
 		exclude: ["pexels-", "_watermark"],
 	},
 };

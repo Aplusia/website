@@ -1,4 +1,5 @@
 import logo from "../assets/logo.svg";
+import LinkedInIcon from "./LinkedInIcon";
 
 export default function Footer() {
 	return (
@@ -13,8 +14,7 @@ export default function Footer() {
 							className="h-16 mb-4 brightness-0 invert"
 						/>
 						<p className="text-gray-400 text-sm leading-relaxed">
-							AI-powered data platforms for the next generation of drug
-							discovery.
+							Computational Platforms for the next generation of Drug Discovery
 						</p>
 					</div>
 
@@ -40,18 +40,10 @@ export default function Footer() {
 							</li>
 							<li>
 								<a
-									href="/#case-studies"
-									className="text-gray-400 hover:text-white transition-colors text-sm"
-								>
-									Case studies
-								</a>
-							</li>
-							<li>
-								<a
 									href="/#careers"
 									className="text-gray-400 hover:text-white transition-colors text-sm"
 								>
-									Careers
+									Open Roles
 								</a>
 							</li>
 						</ul>
@@ -61,12 +53,11 @@ export default function Footer() {
 					<div>
 						<h4 className="text-white mb-4">Contact</h4>
 						<ul className="space-y-3">
-							<li className="text-gray-400 text-sm">info@company.com</li>
-							<li className="text-gray-400 text-sm">+1 (555) 123-4567</li>
+							<li className="text-gray-400 text-sm">info@aplusia.com</li>
 							<li className="text-gray-400 text-sm">
-								123 Innovation Drive
+								Türkenstraße 5
 								<br />
-								San Francisco, CA 94105
+								80333 München, Germany
 							</li>
 						</ul>
 					</div>
@@ -76,25 +67,13 @@ export default function Footer() {
 						<h4 className="text-white mb-4">Follow Us</h4>
 						<div className="flex gap-4">
 							<a
-								href="https://linkedin.com"
+								href="https://www.linkedin.com/company/aplusia"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#75bb2b] transition-colors"
 								aria-label="LinkedIn"
 							>
-								<span className="text-sm">Li</span>
-							</a>
-							<a
-								href="https://twitter.com"
-								className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#75bb2b] transition-colors"
-								aria-label="Twitter"
-							>
-								<span className="text-sm">Tw</span>
-							</a>
-							<a
-								href="https://github.com"
-								className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#75bb2b] transition-colors"
-								aria-label="GitHub"
-							>
-								<span className="text-sm">Gh</span>
+								<LinkedInIcon className="w-5 h-5" />
 							</a>
 						</div>
 					</div>
@@ -103,20 +82,14 @@ export default function Footer() {
 				{/* Bottom Bar */}
 				<div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
 					<p className="text-gray-400 text-sm">
-						© {new Date().getFullYear()} Aplusia. All rights reserved.
+						© {new Date().getFullYear()} Aplusia GmbH. All rights reserved.
 					</p>
 					<div className="flex gap-6">
 						<a
-							href="/privacy"
+							href="/impressum"
 							className="text-gray-400 hover:text-white transition-colors text-sm"
 						>
-							Privacy Policy
-						</a>
-						<a
-							href="/terms"
-							className="text-gray-400 hover:text-white transition-colors text-sm"
-						>
-							Terms of Service
+							Impressum
 						</a>
 					</div>
 				</div>

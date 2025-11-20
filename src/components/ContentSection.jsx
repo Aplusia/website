@@ -15,7 +15,9 @@ export default function ContentSection({
 			)}
 			<div className="flex-1">
 				<h3 className="text-4xl text-[#1f2937] mb-4">{title}</h3>
-				<p className="text-lg text-[#6b7280] leading-relaxed">{description}</p>
+				<div className="text-lg text-[#6b7280] leading-relaxed">
+					{description}
+				</div>
 			</div>
 			{imagePosition === "right" && (
 				<div className="flex-1 rounded-2xl h-[600px] flex items-center justify-center overflow-hidden">

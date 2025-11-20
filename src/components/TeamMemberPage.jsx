@@ -1,9 +1,9 @@
 import { useNavigate, useParams } from "react-router-dom";
-import christophPhoto from "../assets/christoph_watermark_optimized.jpg";
-import constiPhoto from "../assets/consti_watermark_optimized.jpg";
-import georgPhoto from "../assets/gw_watermark_optimized.jpg";
-import juanPhoto from "../assets/juan_watermark_optimized.jpg";
-import patriciaPhoto from "../assets/patricia_watermark_optimized.jpg";
+import christophPhoto from "../assets/christoph_crop_optimized.jpg";
+import constiPhoto from "../assets/constantin_crop_optimized.jpg";
+import georgPhoto from "../assets/georg_crop_optimized.jpg";
+import juanPhoto from "../assets/juan_crop_optimized.jpg";
+import patriciaPhoto from "../assets/patricia_crop_optimized.jpg";
 
 const TEAM_MEMBERS = {
 	"christoph-wichmann": {

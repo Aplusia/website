@@ -15,7 +15,7 @@ export default function HeroSection() {
 			<div className="z-10 relative px-12 pb-12">
 				<h2 className="text-white text-5xl mb-4">AI for Life Sciences</h2>
 				<p className="text-white text-3xl leading-tight">
-					Data Platforms for the next
+					Computational Platforms for the next
 					<br />
 					generation of Drug Discovery
 				</p>
